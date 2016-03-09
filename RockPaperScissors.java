@@ -7,7 +7,7 @@ public class RockPaperScissors
 public static void main(String[]args) 
 
 {   //Input
-    String personPlay; //
+    String personPlay;
     String computerPlay = ""; 
     int computerInt;
     String response; 
