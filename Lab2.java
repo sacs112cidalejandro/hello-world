@@ -17,25 +17,11 @@ public class Lab2 {
 		if (y.equalsIgnoreCase("yes"))
 			System.out.println("Buy yourself a Coke" );	
 		
-		if (y.equalsIgnoreCase("yes"))
-			System.out.println("Eat you lunch");
-			
-		if (y.equalsIgnoreCase("yes"))
-			System.out.println("Return Tray");
-		
-		if (y.equalsIgnoreCase("yes"))
-			System.out.println("leave");
-		
 		else if(y.equalsIgnoreCase("no"))
 			System.out.println("Get water");
-			
-		if (y.equalsIgnoreCase("no"))
-				System.out.println("Eat you lunch");
-				
-		if (y.equalsIgnoreCase("no"))
-				System.out.println("Return Tray");
-		
-		if (y.equalsIgnoreCase("no"))
-				System.out.println("leave");
+		    System.out.println("Eat you lunch");
+		    System.out.println("Return Tray");
+		    System.out.println("leave");
+	
 		}
 	}
