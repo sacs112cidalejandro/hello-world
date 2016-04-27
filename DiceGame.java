@@ -22,7 +22,7 @@ public class DiceGame {
 	{
 		diceNumber=diceCount*(1+(int)(Math.random()*6));
 	}
-	public int CheckResult()
+	public int CheckResult()  // boolean would be better than int in this case
 	{
 		if(diceNumber%2==0)
 			diceResult=2;//1 is odd
